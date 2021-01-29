@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
 	<!-- HTML Meta Tags -->
 	<title>KIWI DEFI</title>
 	<meta name="description" content="Kiwi defi">
@@ -59,6 +60,7 @@
 				</li>	
 				<li><a class="nav-link p-4 menu_top" href="#">Media</a></li>
 				<li><a class="nav-link p-4 menu_top" href="#">Blog</a></li>
+				<li><a class="nav-link p-4 menu_top" href="#">White paper</a></li>
 			</ul>
 		</div>
 	</nav>	
@@ -78,64 +80,285 @@
                     <div class="blog-one">
 						<div class="blog-one_content" style="margin-top: 50px;">
 							<img src="images/WEB KIWI-05.png" alt="">
-							<button class="btn_content">STAKING</button>
-                        </div>
+							<button class="btn_content" id="myBtn1"><i class="fa fa-hand-pointer-o" aria-hidden="true"></i>STAKING</button>
+									<!-- The Modal -->
+								<div id="myModal1" class="modal">
+									<!-- Modal content -->
+									<div class="modal-content">
+										<span class="close1">&times;</span>
+										<center><img class="img-fluid" src="images/coming1.png" width="600px" height="400px"></center>
+									</div>
+								</div>
+                       	 </div>
                     </div>
-                </div>
+				</div>
+				<!--js popup 1-->
+				<script>
+					// Get the modal
+					var modal = document.getElementById("myModal1");
+					
+					// Get the button that opens the modal
+					var btn = document.getElementById("myBtn1");
+					
+					// Get the <span> element that closes the modal
+					var span = document.getElementsByClassName("close1")[0];
+					
+					// When the user clicks the button, open the modal 
+					btn.onclick = function() {
+					modal.style.display = "block";
+					}
+					
+					// When the user clicks on <span> (x), close the modal
+					span.onclick = function() {
+					modal.style.display = "none";
+					}
+					
+					// When the user clicks anywhere outside of the modal, close it
+					window.onclick = function(event) {
+					if (event.target == modal) {
+						modal.style.display = "none";
+					}
+					}
+				</script>
+				<!-- end js popup-->								
                 <div class="col-lg-4 col-md-6">
                     <div class="blog-one">
 						<div class="blog-one_content" style="margin-top: 50px;">
 							<img src="images/WEB KIWI-06.png" alt="">
-							<button class="btn_content">SWAP</button>
+							<button class="btn_content" id="myBtn2"><i class="fa fa-hand-pointer-o" aria-hidden="true"></i>SWAP</button>
+									<!-- The Modal -->
+								<div id="myModal2" class="modal">
+									<!-- Modal content -->
+									<div class="modal-content">
+										<span class="close2">&times;</span>
+										<center><img class="img-fluid" src="images/coming1.png" width="600px" height="400px"></center>
+									</div>
+								</div>
                         </div>
                     </div>
-                </div>
+				</div>
+				<!--js popup 2-->
+<script>
+	// Get the modal
+	var modal = document.getElementById("myModal2");
+	
+	// Get the button that opens the modal
+	var btn = document.getElementById("myBtn2");
+	
+	// Get the <span> element that closes the modal
+	var span = document.getElementsByClassName("close2")[0];
+	
+	// When the user clicks the button, open the modal 
+	btn.onclick = function() {
+	modal.style.display = "block";
+	}
+	
+	// When the user clicks on <span> (x), close the modal
+	span.onclick = function() {
+	modal.style.display = "none";
+	}
+	
+	// When the user clicks anywhere outside of the modal, close it
+	window.onclick = function(event) {
+	if (event.target == modal) {
+		modal.style.display = "none";
+	}
+	}
+</script>
+<!-- end js popup-->
                 <div class="col-lg-4 col-md-6">
                     <div class="blog-one">
 						<div class="blog-one_content" style="margin-top: 50px;">
 							<img src="images/WEB KIWI-07.png" alt="">
-							<button class="btn_content">LEVERAGE</button>
+							<button class="btn_content" id="myBtn3"><i class="fa fa-hand-pointer-o" aria-hidden="true"></i>LEVERAGE</button>
+									<!-- The Modal -->
+								<div id="myModal3" class="modal">
+									<!-- Modal content -->
+									<div class="modal-content">
+										<span class="close3">&times;</span>
+										<center><img class="img-fluid" src="images/coming1.png" width="600px" height="400px"></center>
+									</div>
+								</div>
                         </div>
                     </div>
-                </div>
+				</div>
+				<!--js popup 3-->
+<script>
+	// Get the modal
+	var modal = document.getElementById("myModal3");
+	
+	// Get the button that opens the modal
+	var btn = document.getElementById("myBtn3");
+	
+	// Get the <span> element that closes the modal
+	var span = document.getElementsByClassName("close3")[0];
+	
+	// When the user clicks the button, open the modal 
+	btn.onclick = function() {
+	modal.style.display = "block";
+	}
+	
+	// When the user clicks on <span> (x), close the modal
+	span.onclick = function() {
+	modal.style.display = "none";
+	}
+	
+	// When the user clicks anywhere outside of the modal, close it
+	window.onclick = function(event) {
+	if (event.target == modal) {
+		modal.style.display = "none";
+	}
+	}
+</script>
+<!-- end js popup-->	
                 <div class="col-lg-4 col-md-6">
                     <div class="blog-one" style="margin-top: 50px;">
                         <div class="blog-one_content">
 							<img class="img-fluid" src="images/WEB KIWI-08.png" alt="">
-							<button class="btn_content">LIQUIDITY</button>
+							<button class="btn_content" id="myBtn4"><i class="fa fa-hand-pointer-o" aria-hidden="true"></i>LIQUIDITY</button>
+									<!-- The Modal -->
+								<div id="myModal4" class="modal">
+									<!-- Modal content -->
+									<div class="modal-content">
+										<span class="close4">&times;</span>
+										<center><img class="img-fluid" src="images/coming1.png" width="600px" height="400px"></center>
+									</div>
+								</div>
                         </div>
                     </div>
-                </div>
+				</div>
+				<!--js popup 4-->
+				<script>
+					// Get the modal
+					var modal = document.getElementById("myModal4");
+					
+					// Get the button that opens the modal
+					var btn = document.getElementById("myBtn4");
+					
+					// Get the <span> element that closes the modal
+					var span = document.getElementsByClassName("close4")[0];
+					
+					// When the user clicks the button, open the modal 
+					btn.onclick = function() {
+					modal.style.display = "block";
+					}
+					
+					// When the user clicks on <span> (x), close the modal
+					span.onclick = function() {
+					modal.style.display = "none";
+					}
+					
+					// When the user clicks anywhere outside of the modal, close it
+					window.onclick = function(event) {
+					if (event.target == modal) {
+						modal.style.display = "none";
+					}
+					}
+				</script>
+				<!-- end js popup-->
                 <div class="col-lg-4 col-md-6">
                     <div class="blog-one" style="margin-top: 50px;">
                         <div class="blog-one_content">
 							<img src="images/WEB KIWI-09.png" alt="">
-							<button class="btn_content">FARMING</button>
+							<button class="btn_content" id="myBtn5"><i class="fa fa-hand-pointer-o" aria-hidden="true"></i>FARMING</button>
+									<!-- The Modal -->
+								<div id="myModal5" class="modal">
+									<!-- Modal content -->
+									<div class="modal-content">
+										<span class="close5">&times;</span>
+										<center><img class="img-fluid" src="images/coming1.png" width="600px" height="400px"></center>
+									</div>
+								</div>
                         </div>
                     </div>
-                </div>
+				</div>
+				<!--js popup 5-->
+<script>
+	// Get the modal
+	var modal = document.getElementById("myModal5");
+	
+	// Get the button that opens the modal
+	var btn = document.getElementById("myBtn5");
+	
+	// Get the <span> element that closes the modal
+	var span = document.getElementsByClassName("close5")[0];
+	
+	// When the user clicks the button, open the modal 
+	btn.onclick = function() {
+	modal.style.display = "block";
+	}
+	
+	// When the user clicks on <span> (x), close the modal
+	span.onclick = function() {
+	modal.style.display = "none";
+	}
+	
+	// When the user clicks anywhere outside of the modal, close it
+	window.onclick = function(event) {
+	if (event.target == modal) {
+		modal.style.display = "none";
+	}
+	}
+</script>
+<!-- end js popup-->
                 <div class="col-lg-4 col-md-6">
                     <div class="blog-one" style="margin-top: 50px;">
                         <div class="blog-one_content">
 							<img src="images/WEB KIWI-10.png" alt="">
-							<button class="btn_content">FUN</button>
-
+								<!-- Trigger/Open The Modal -->
+								<button class="btn_content" id="myBtn6"><i class="fa fa-hand-pointer-o" aria-hidden="true"></i>FUND</button>
+									<!-- The Modal -->
+								<div id="myModal6" class="modal">
+									<!-- Modal content -->
+									<div class="modal-content">
+										<span class="close6 close1">&times;</span>
+										<center><img class="img-fluid" src="images/coming1.png" width="600px" height="400px"></center>
+									</div>
+								</div>
                         </div>
                     </div>
-                </div>
+				</div>
+				<!--js popup 6-->
+				<script>
+					// Get the modal
+					var modal = document.getElementById("myModal6");
+					
+					// Get the button that opens the modal
+					var btn = document.getElementById("myBtn6");
+					
+					// Get the <span> element that closes the modal
+					var span = document.getElementsByClassName("close6")[0];
+					
+					// When the user clicks the button, open the modal 
+					btn.onclick = function() {
+					modal.style.display = "block";
+					}
+					
+					// When the user clicks on <span> (x), close the modal
+					span.onclick = function() {
+					modal.style.display = "none";
+					}
+					
+					// When the user clicks anywhere outside of the modal, close it
+					window.onclick = function(event) {
+					if (event.target == modal) {
+						modal.style.display = "none";
+					}
+					}
+				</script>
+				<!-- end js popup-->
 
 			</div>
 		</center>
 			
 		</div>
 	</div>
-	
-	<footer style="background-color: #EF64A4; padding: 20px 0 0 0; overflow: hidden">
+	<footer style="background: -webkit-linear-gradient(-225deg, #EF64A4 0%, #EF64A4 48%, #943894 100%); padding: 20px 0 0 0; overflow: hidden">
 	    <center>
 	        <div>
     			<div class="row">
     				<div class="col-md-4 text-center">
-    					<img class="img-fuild" src="images/WEB KIWI-11.png">
+    					<img class="img-fluid" src="images/WEB KIWI-11.png" width="200px" height="50px" style="padding-bottom: 30px;">
 					</div>
 					<div class="col-md-4">
     						<a href="https://t.me/joinchat/SuS4jiitTsgVp4gd" target="_blank"><img src="images/WEB KIWI-12.png" alt=""></a>
