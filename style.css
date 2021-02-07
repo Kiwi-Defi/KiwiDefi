@@ -112,6 +112,9 @@ nav{
 .body_content{
 	padding: 50px 0 30px 0;
 }
+.body_content1{
+	padding: 50px 50px 30px 50px;
+}
 #title{
 	padding: 32.7625px 32.7625px;
 	margin :70px 0 0 0;
@@ -196,11 +199,7 @@ div.end_div a:hover{
 	color: orange;
 }
 .blog-one {
-	background-image: url(images/WEB\ KIWI-04\ \(2\).png);
-	background-size:cover;
-	background-repeat: no-repeat;
-    height: 250px;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
     color: #943894;
     margin-left: 10px;
 
@@ -242,74 +241,26 @@ p#sub_title span{
 	color: red;
 	display: inline-block;
 }
-.site-footer {
-    background: linear-gradient(39deg, rgba(254, 190, 17, 1) 34%, rgba(242, 16, 119, 1) 79%);
-    position: relative;
-    overflow: hidden;
-    opacity: 0.8;
-}
-.site-footer__shape-1 {
-    top: -2.5%;
-    left: 3%;
-    -webkit-animation-name: shapeMover;
-    animation-name: shapeMover;
-    -webkit-animation-duration: 9s;
-    animation-duration: 9s;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    animation-delay: 0s;
-}
 
-.site-footer__shape-2 {
-    bottom: 15%;
-    right: 4%;
-    -webkit-animation-name: shapeMover;
-    animation-name: shapeMover;
-    -webkit-animation-duration: 9s;
-    animation-duration: 9s;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    animation-delay: 2s;
-}
+#footer {
+    position: fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
+    height: 100px;
+    background: -webkit-linear-gradient(-225deg, #EF64A4 0%, #EF64A4 48%, #943894 100%);
+    padding:30px 0 0px 0;
+    max-height: fit-content;
+ }
 
-.site-footer__shape-3 {
-    position: absolute;
-    left: calc(50% - 231.5px);
-    bottom: calc(0% - 231px);
-    opacity: 0.15;
-    -webkit-transform-origin: center bottom;
-    transform-origin: center bottom;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    -webkit-animation-name: bounce;
-    animation-name: bounce;
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-    -webkit-animation-duration: 5s;
-    animation-duration: 5s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-}
-
-.site-footer .container {
-    position: relative;
-    z-index: 20;
-}
-
-.site-footer__upper {
-    padding-bottom: 25px;
-}
 /*footer widgets*/
 .btn_content {
     background: -webkit-linear-gradient(-225deg, #EF64A4 0%, #EF64A4 48%, #943894 100%);
-    width: 150px;
+    width: 100px;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 16px;
     color:white;
+    margin-top: 20px;
 }
 .btn_content:hover {
     background-color: #943894;
@@ -366,6 +317,7 @@ p#sub_title span{
     .footer-widget__about {
         padding-right: 44px;
     }
+
 }
 
 .site-footer__bottom .inner-container>p {
