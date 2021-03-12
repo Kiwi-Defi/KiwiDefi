@@ -20,6 +20,14 @@
     #particles-js{
         height:2400px !important;
     }
+    .footer-custom{
+        position: relative !important;
+        overflow: hidden;
+        width: 100%;
+        height:200px !important;
+        display:block;
+        bottom: 0;
+    }
 }
 .nav-link{
 	color: white !important;
@@ -308,11 +316,13 @@ p#sub_title span{
 }
 .footer-custom{
     background: -webkit-linear-gradient(-225deg, #EF64A4 0%, #EF64A4 48%, #943894 100%);
-    position: absolute;
+    position: fixed;
     overflow: hidden;
     width: 100%;
-    height:200px;
+    height:70px;
     display:block;
+    bottom: 0;
+
 }
 .footer-widget p+p {
     margin-top: 25px;
