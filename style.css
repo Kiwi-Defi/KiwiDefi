@@ -18,7 +18,7 @@
 		background-color: -webkit-linear-gradient(-225deg, #EF64A4 0%, #EF64A4 48%, #943894 100%);
 	}
     #particles-js{
-        height:2400px !important;
+        height:auto !important;
     }
     .footer-custom{
         position: relative !important;
@@ -141,7 +141,7 @@ display: block;
 }
 .logo{
 	position: relative;
-	margin-left: 15%;
+	margin-left: 3%;
 }
 .body_content{
 	padding: 50px 0 30px 0;
@@ -322,6 +322,15 @@ p#sub_title span{
     height:70px;
     display:block;
     bottom: 0;
+
+}
+.footermedia-custom{
+    background: -webkit-linear-gradient(-225deg, #EF64A4 0%, #EF64A4 48%, #943894 100%);
+    overflow: hidden;
+    width: 100%;
+    display:block;
+    bottom: 0;
+    position: fixed;
 
 }
 .footer-widget p+p {
