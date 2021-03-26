@@ -254,7 +254,7 @@ p#sub_title span{
 	display: inline-block;
 	font-weight: 100;
 	text-align: center;
-	font-size: 35px;
+	font-size: 24px;
 }
 
 #clockdiv > div{
@@ -264,19 +264,27 @@ p#sub_title span{
 }
 
 #clockdiv div > span{
-	height: 70px;
-	width: 70px;
+	height: 55px;
+	width: 55px;
 	padding: 5px;
 	border-radius: 50%;
 	border-style: solid;
 	border-width: 5px;
 	/*,#22d8d8*/
-	border-color: #044ffb;
+	border-color: #EF64A4;
 	background: white;
-	color: red;
+	color: #EF64A4;
 	display: inline-block;
 }
-
+.btn_submit{
+    background: -webkit-linear-gradient(-225deg, #EF64A4 0%, #EF64A4 48%, #943894 100%);
+    border: none;
+    border-radius: 10px;
+    width: 130px;
+    color: white;
+    font-size: 20px;
+    
+}
 .footer {
     position: absolute;
     width:100%;

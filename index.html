@@ -80,9 +80,61 @@
 				<div class="row">
 					<div class="col-lg-4" style="margin-top:50px;" data-aos="fade-right">
 						<img class="img-fluid" src="images/WEB KIWI-11 (2).png">
-						<p style="font-size: 18px; text-align: justify; margin-right: 10px; margin-top: 20px; color:white;">KIWI DEFI is emerging as a project full of potential and promising breakthrough growth steps.
-							KIWI DEFI is a TRON-based protocol ecosystem that aims to simplify user interaction with popular Defi protocols and maxmize the crypto's real annual rate of return (APY) sent to Defi.</p>
+						 <!-- <p style="font-size: 18px; text-align: justify; margin-right: 10px; margin-top: 20px; color:white;">KIWI DEFI is emerging as a project full of potential and promising breakthrough growth steps.
+							 KIWI DEFI is a TRON-based protocol ecosystem that aims to simplify user interaction with popular Defi protocols and maxmize the crypto's real annual rate of return (APY) sent to Defi.</p>  -->
+							 <center>
+							<div style="background-image: url('images/KIWI\ DEFI-360\ x\ 210.png'); background-size: cover; margin-top: 10px; padding-bottom: 20px;">
+								<div>
+									<h2 class="text-white">Launchpad sale ON Jlaunchad.com</h2>
+								</div>
+								<div id="clockdiv">
+									<div class="count-down" style="padding-bottom: 10px;">
+											<div  id="clockdiv">	
+												<div>
+													<span class="coundown bg-white" id="days" style="margin-right: 10px"></span>
+													<span class="coundown bg-white" id="hours" style="margin-right: 10px"></span>
+													<span class="coundown bg-white" id="minutes" style="margin-right: 10px"></span>
+													<span class="coundown bg-white" id="seconds" style="margin-right: 10px"></span>
+												</div>
+											</div>
+								</div>
+								<div><a href="https://jlaunchpad.com/"><button class="btn_submit"><b>Click here</b></button></a></div>
+							</div>
+							</center>
+							<script>
+								// Set the date we're counting down to
+								var countDownDate = new Date("apr 5, 2021 19:00:00").getTime();
+				
+								// Update the count down every 1 second
+								var x = setInterval(function() {
+				
+								// Get today's date and time
+								var now = new Date().getTime();
+									
+								// Find the distance between now and the count down date
+								var distance = countDownDate - now;
+									
+								// Time calculations for days, hours, minutes and seconds
+								var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+								var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+								var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+								var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+									
+								// Output the result in an element with id="demo"
+								document.getElementById("days").innerHTML = days;
+								document.getElementById("hours").innerHTML =hours;
+								document.getElementById("minutes").innerHTML =minutes;
+								document.getElementById("seconds").innerHTML =seconds;
+									
+								// If the count down is over, write some text 
+								if (distance < 0) {
+									clearInterval(x);
+									document.getElementById("demo").innerHTML = "EXPIRED";
+								}
+								}, 1000);
+		  </script>
 						<div>
+
 							<a href="https://tronscan.io/#/token20/TBfmqQuq2BybRj4hrQoUAqwM7t61Jmd9y3" target="_blank"><button class="btn_content">Explore</button></a>
 							<a href="http://docs.kiwidefi.com/" target="_blank"><button class="btn_content">Docs</button></a>
 						</div>
