@@ -567,3 +567,10 @@ canvas {
 	text-decoration: none;
 	cursor: pointer;
   }
+  .soon-menu{   
+  position: absolute;
+  top: -10px;
+  right: 0px;
+  font-size: 10px;
+  color: rgb(252, 9, 9);
+}
