@@ -523,6 +523,13 @@ canvas {
 		background: rgba(255,255,255,.6);
 		z-index: 1001;
 	}
+    .soon-menu{   
+        position: absolute;
+        top: 0px;
+        right: 83% !important;
+        font-size: 10px;
+        color: yellow;
+      }
 }
 
   /* Modal Content */
@@ -572,5 +579,5 @@ canvas {
   top: 0px;
   right: 21px;
   font-size: 10px;
-  color: white;
+  color: yellow;
 }
