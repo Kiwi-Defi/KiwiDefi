@@ -60,7 +60,7 @@ ul#menu li {
  
      float: left;    /* code này để menu dàn hàng ngang*/
  
-     margin-right: 10px;    /* tạo lề cho các menu*/
+     margin-right: -20px;    /* tạo lề cho các menu*/
  
 }
  
