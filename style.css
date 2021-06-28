@@ -85,6 +85,7 @@ ul#menu li {
 ul#menu li ul#sub {
  
 display: none;
+width: 150px;
 position: absolute;
 background-color:#EF64A4; 
 z-index: 99;
@@ -101,7 +102,7 @@ margin-left: 20px;
  
 ul#menu li:hover ul#sub {
  
-display: block;
+display: grid;
  
  }
 
